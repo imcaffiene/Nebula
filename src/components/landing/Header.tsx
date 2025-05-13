@@ -6,7 +6,6 @@ import { ThemeToggle } from "../ui/theme-toggle";
 const Header = () => {
   return (
     <>
-      {/* for mobile */}
       <div className="sticky top-0 left-0 right-0 z-59">
         <div className="bg-white dark:bg-black/5 w-full">
           {/* rest of header content */}
