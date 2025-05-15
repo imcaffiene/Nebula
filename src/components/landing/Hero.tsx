@@ -1,18 +1,30 @@
 "use client";
 
-import { Sparkles } from "lucide-react";
-import { motion } from "motion/react";
-import TailwindCSS from "../icons/tailwindcss";
-import { BrowseComponentsButton } from "../ui/browse-button";
-import { BrowseBlocksButton } from "../ui/browse-blocks";
-import Features from "./Features";
+import type React from "react";
+
 import Link from "next/link";
+import TailwindCSS from "@/components/icons/tailwindcss";
+import { motion } from "motion/react";
+
+import { Sparkles } from "lucide-react";
+import { BrowseBlocksButton } from "../ui/browse-blocks";
+import { BrowseComponentsButton } from "../ui/browse-button";
+import Features from "./Features";
 import Card08 from "../nebula-ui/card/card-08";
-import Btn02 from "../nebula-ui/button/btn-02";
-import Btn08 from "../nebula-ui/button/btn-08";
 import Card02 from "../nebula-ui/card/card-02";
 import AIInput_04 from "../nebula-ui/ai-input/ai-input-04";
-import Input_10 from "../nebula-ui/input/input-10";
+import { Btn14 } from "../nebula-ui/button/btn-14";
+import Btn03 from "../nebula-ui/button/btn-03";
+import Input09 from "../nebula-ui/input/input-09";
+
+interface Action {
+  id: string;
+  label: string;
+  icon: React.ReactNode;
+  description?: string;
+  short?: string;
+  end?: string;
+}
 
 export function HeroSection() {
   return (
@@ -36,7 +48,6 @@ export function HeroSection() {
             </span>
             .
           </h1>
-
           <p className="mt-6 text-base md:text-xl text-zinc-700 dark:text-zinc-300 max-w-lg">
             A curated collection of{" "}
             <span className="font-semibold">100+ premium UI components</span>{" "}
@@ -59,7 +70,7 @@ export function HeroSection() {
           className="flex flex-col justify-start w-full"
         >
           <span className="text-sm text-zinc-500 dark:text-zinc-300 pb-3 text-start flex items-center gap-2">
-            <TailwindCSS className="w-4 h-4" />{" "}
+            <TailwindCSS className="w-4 h-4" />
             <span className="flex items-center gap-1.5">
               Now updated for Tailwind CSS 4.0!
               <span className="inline-flex items-center rounded-md bg-purple-50 dark:bg-purple-900/30 px-2 py-1 text-xs font-medium text-purple-700 dark:text-purple-300">
@@ -68,7 +79,6 @@ export function HeroSection() {
               </span>
             </span>
           </span>
-
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start gap-3">
             <BrowseComponentsButton />
             <BrowseBlocksButton />
@@ -90,7 +100,7 @@ export function HeroSection() {
           {/* Card component */}
           <div className="w-full flex flex-col items-center justify-center ">
             <span className="text-sm text-zinc-500 dark:text-zinc-400 block text-center mb-2">
-              Card
+              {"<Card/>"}
             </span>
             <Card08 href="/docs/components/card" />
           </div>
@@ -100,12 +110,15 @@ export function HeroSection() {
             <span className="text-sm text-zinc-500 dark:text-zinc-400 block text-center mb-2">
               Components
             </span>
+            {/* <ActionSearchBar
+                            actions={allActions}
+                            defaultOpen={true}
+                        /> */}
             <Card02 />
           </div>
         </motion.div>
 
         {/* Middle row: AI Chat */}
-
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -115,6 +128,7 @@ export function HeroSection() {
           <span className="text-sm text-zinc-500 dark:text-zinc-400 block text-center mb-2">
             AI Chat
           </span>
+          {/* <AIInput_04 /> */}
           <div className="w-full h-48 rounded-xl border border-zinc-200 dark:border-zinc-800 flex items-center justify-center">
             <AIInput_04 />
           </div>
@@ -132,13 +146,12 @@ export function HeroSection() {
             <span className="text-sm text-zinc-500 dark:text-zinc-400 block text-center mb-2">
               Buttons
             </span>
-
             <div className="w-full h-48 rounded-xl  border border-zinc-200 dark:border-zinc-800 flex flex-col items-center justify-center gap-3">
               <Link href="/docs/components/button">
-                <Btn02 />
+                <Btn14 label="Bring me" className=" w-42 py-5" />
               </Link>
               <Link href="/docs/components/button">
-                <Btn08 />
+                <Btn03 className=" w-42 py-5" />
               </Link>
             </div>
           </div>
@@ -149,7 +162,7 @@ export function HeroSection() {
               Input
             </span>
             <Link href="/docs/components/input">
-              <Input_10 />
+              <Input09 />
             </Link>
           </div>
         </motion.div>
