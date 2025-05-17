@@ -806,3 +806,7 @@ function Checkmark({
     </motion.svg>
   );
 }
+
+function submitContactForm(state: { success: boolean; error: string; }): { success: boolean; error: string; } | Promise<{ success: boolean; error: string; }> {
+  throw new Error("Function not implemented.");
+}
