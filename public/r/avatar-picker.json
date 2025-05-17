@@ -1,7 +1,10 @@
 {
   "name": "avatar-picker",
   "type": "registry:component",
-  "dependencies": ["lucide-react", "motion"],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
   "registryDependencies": [],
   "files": [
     {

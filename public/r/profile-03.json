@@ -1,8 +1,16 @@
 {
   "name": "profile-03",
   "type": "registry:component",
-  "dependencies": ["lucide-react"],
-  "registryDependencies": ["button", "input", "label", "textarea", "avatar"],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "label",
+    "textarea",
+    "avatar"
+  ],
   "files": [
     {
       "type": "registry:component",

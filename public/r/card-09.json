@@ -1,7 +1,9 @@
 {
   "name": "card-09",
   "type": "registry:component",
-  "dependencies": ["lucide-react"],
+  "dependencies": [
+    "lucide-react"
+  ],
   "registryDependencies": [],
   "files": [
     {

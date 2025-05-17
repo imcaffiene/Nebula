@@ -1,7 +1,9 @@
 {
   "name": "background-circles",
   "type": "registry:component",
-  "dependencies": ["motion"],
+  "dependencies": [
+    "motion"
+  ],
   "registryDependencies": [],
   "files": [
     {

@@ -1,7 +1,9 @@
 {
   "name": "faq-01",
   "type": "registry:component",
-  "registryDependencies": ["accordion"],
+  "registryDependencies": [
+    "accordion"
+  ],
   "dependencies": [],
   "files": [
     {

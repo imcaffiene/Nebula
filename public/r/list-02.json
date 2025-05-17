@@ -2,7 +2,9 @@
   "name": "list-02",
   "type": "registry:component",
   "registryDependencies": [],
-  "dependencies": ["lucide-react"],
+  "dependencies": [
+    "lucide-react"
+  ],
   "files": [
     {
       "type": "registry:component",

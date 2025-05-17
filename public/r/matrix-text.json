@@ -1,7 +1,9 @@
 {
   "name": "matrix-text",
   "type": "registry:component",
-  "dependencies": ["motion"],
+  "dependencies": [
+    "motion"
+  ],
   "registryDependencies": [],
   "files": [
     {

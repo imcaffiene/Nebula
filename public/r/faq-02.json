@@ -2,7 +2,10 @@
   "name": "faq-02",
   "type": "registry:component",
   "registryDependencies": [],
-  "dependencies": ["motion", "lucide-react"],
+  "dependencies": [
+    "motion",
+    "lucide-react"
+  ],
   "files": [
     {
       "type": "registry:component",

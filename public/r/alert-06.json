@@ -1,8 +1,13 @@
 {
   "name": "alert-06",
   "type": "registry:component",
-  "dependencies": ["lucide-react", "motion"],
-  "registryDependencies": ["alert"],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "registryDependencies": [
+    "alert"
+  ],
   "files": [
     {
       "type": "registry:component",

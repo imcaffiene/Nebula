@@ -1,7 +1,9 @@
 {
   "name": "profile-01",
   "type": "registry:component",
-  "dependencies": ["lucide-react"],
+  "dependencies": [
+    "lucide-react"
+  ],
   "files": [
     {
       "type": "registry:component",

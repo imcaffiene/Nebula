@@ -1,8 +1,15 @@
 {
   "name": "ai-chat",
   "type": "registry:block",
-  "dependencies": ["lucide-react", "motion"],
-  "registryDependencies": ["button", "input", "textarea"],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "textarea"
+  ],
   "files": [
     {
       "type": "registry:component",

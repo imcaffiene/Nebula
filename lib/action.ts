@@ -11,7 +11,7 @@ const readFileCache = cache(async (filePath: string) => {
 
 // Improve caching for the entire component getter
 export const getComponent = async (fileName: string | null, folder: string) => {
-  const baseDir = path.join(process.cwd(), "components/nebula-ui");
+  const baseDir = path.join(process.cwd(), "src/components/nebula-ui");
   if (!fileName || fileName === "undefined") {
     const fullPath = path.join(baseDir, `${folder}.tsx`);
     // console.log("fullPath", fullPath);

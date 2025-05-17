@@ -1,7 +1,9 @@
 {
   "name": "ai-input-08",
   "type": "registry:component",
-  "dependencies": ["lucide-react"],
+  "dependencies": [
+    "lucide-react"
+  ],
   "registryDependencies": [],
   "files": [
     {

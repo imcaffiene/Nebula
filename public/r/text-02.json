@@ -1,7 +1,9 @@
 {
   "name": "text-02",
   "type": "registry:component",
-  "dependencies": ["motion"],
+  "dependencies": [
+    "motion"
+  ],
   "files": [
     {
       "type": "registry:component",

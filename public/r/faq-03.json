@@ -1,8 +1,13 @@
 {
   "name": "faq-03",
   "type": "registry:component",
-  "registryDependencies": ["accordion", "badge"],
-  "dependencies": ["lucide-react"],
+  "registryDependencies": [
+    "accordion",
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react"
+  ],
   "files": [
     {
       "type": "registry:component",

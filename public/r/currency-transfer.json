@@ -1,8 +1,13 @@
 {
   "name": "currency-transfer",
   "type": "registry:component",
-  "dependencies": ["lucide-react", "motion"],
-  "registryDependencies": ["card"],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "registryDependencies": [
+    "card"
+  ],
   "files": [
     {
       "type": "registry:component",

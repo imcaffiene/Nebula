@@ -1,8 +1,14 @@
 {
   "name": "auth-basic",
   "type": "registry:block",
-  "dependencies": ["lucide-react"],
-  "registryDependencies": ["button", "input", "separator"],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "separator"
+  ],
   "files": [
     {
       "type": "registry:component",

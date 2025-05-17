@@ -2,14 +2,14 @@ import Link from "next/link";
 import { Github as LucideGithub } from "lucide-react";
 import XIcon from "../icons/x-icon";
 
-interface ProjectLink {
-  href: string | null;
-  text: string;
-  description: string;
-  icon: string;
-  iconDark?: string;
-  isNew?: boolean;
-}
+// interface ProjectLink {
+//   href: string | null;
+//   text: string;
+//   description: string;
+//   icon: string;
+//   iconDark?: string;
+//   isNew?: boolean;
+// }
 
 export function Footer() {
   const socialLinks = [

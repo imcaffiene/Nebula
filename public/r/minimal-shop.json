@@ -1,8 +1,16 @@
 {
   "name": "minimal-shop",
   "type": "registry:block",
-  "dependencies": ["lucide-react", "motion"],
-  "registryDependencies": ["button", "input", "select", "textarea"],
+  "dependencies": [
+    "lucide-react",
+    "motion"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "select",
+    "textarea"
+  ],
   "files": [
     {
       "type": "registry:component",

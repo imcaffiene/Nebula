@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "NebulaUI",
-  url: "https://nebula-ui.com",
+  url: "https://ui.codesnipet.com",
   ogImage: "#",
   description:
     "Copy, Paste, Customize. A collection of modern, interactive, customizable UI components. Quick and easy to use.",

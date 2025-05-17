@@ -1,8 +1,15 @@
 {
   "name": "ai-card-generation",
   "type": "registry:block",
-  "dependencies": ["lucide-react"],
-  "registryDependencies": ["button", "input", "select", "textarea"],
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "input",
+    "select",
+    "textarea"
+  ],
   "files": [
     {
       "type": "registry:component",

@@ -1,7 +1,9 @@
 {
   "name": "input-06",
   "type": "registry:component",
-  "dependencies": ["lucide-react"],
+  "dependencies": [
+    "lucide-react"
+  ],
   "files": [
     {
       "type": "registry:component",
